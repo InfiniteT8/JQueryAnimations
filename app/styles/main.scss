@@ -1,0 +1,247 @@
+ // Bourbon & Neat
+@import '../../bower_components/bourbon/dist/bourbon';
+@import '../../bower_components/neat/app/assets/stylesheets/neat';
+
+body {
+  background: #fafafa;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+}
+
+.bigcontainer {
+  width: 960px;
+  margin:0 auto;
+  color:white;
+}
+
+.bigbox {
+  width:600px;
+  height:750px;
+}
+
+.ani1 {
+  margin: 50px auto 0 auto;
+  width: 200px;
+  font-size: 26px;
+  font-weight: 200;
+  line-height: 30px;
+  background-color: #6ee;
+  border-radius: 206px;
+  padding: 60px;
+  float:left;
+  h1 {
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: -1px;
+  }
+}
+
+.Box1 {
+  height: 200px;
+  background-color:#636;
+  margin: 50px auto 0 auto;
+  width: 200px;
+  font-size: 26px;
+  font-weight: 200;
+  line-height: 30px;
+  background-color: #6e4;
+  border-radius: 96px;
+  padding: 60px;
+  p {
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: -1px;
+  }
+}
+
+.Box2 {
+  width: 200px;
+  height: 200px;
+  margin: 50px auto 0 auto;
+  width: 200px;
+  font-size: 26px;
+  font-weight: 200;
+  line-height: 30px;
+  background-color:orange;
+  border-radius: 6px;
+  padding: 60px;
+  float:right;
+}
+
+.Box3 {
+  width: 100px;
+  height: 100px;
+  background-color:yellow;
+  margin: 50px auto 0 auto;
+  width: 200px;
+  font-size: 26px;
+  font-weight: 200;
+  line-height: 30px;
+  border-radius: 88px;
+  padding: 60px;
+}
+
+.Box4 {
+  width: 200px;
+  height: 200px;
+  background-color:#632;
+  border-radius:300px
+}
+
+.Box5 {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid red;
+  position: relative;
+}
+
+.Box5:after {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 100px solid red;
+  position: absolute;
+  content: "";
+  top: 30px;
+  left: -50px;
+}
+
+.Box6 {
+  width: 200px;
+  height: 200px;
+  background-color:#136;
+}
+
+.Box7 {
+  width: 0px;
+  height: 0px;
+  background-color:yellow;
+  border-right: 60px solid transparent;
+  border-top: 60px solid red;
+  border-left: 60px solid red;
+  border-bottom: 60px solid red;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+}
+
+.Box7 {
+  width: 200px;
+  height: 200px;
+  background-color:#533;
+}
+
+.Box8 {
+  width: 200px;
+  height: 200px;
+  background-color:red;
+}
+
+.Box9 {
+  width: 200px;
+  height: 200px;
+  background-color:green;
+}
+
+.Box10 {
+  width: 200px;
+  height: 200px;
+  background-color:brown;
+}
+
+.Box11 {
+  width: 200px;
+  height: 200px;
+  background-color:rgb(106, 126, 143);
+}
+
+.Box12 {
+  width: 200px;
+  height: 200px;
+  background-color:black;
+}
+
+.Box13 {
+  width: 200px;
+  height: 200px;
+  background-color:grey;
+}
+
+.Box14 {
+  width: 200px;
+  height: 200px;
+  background-color:pink;
+}
+
+.Box15 {
+  width: 200px;
+  height: 200px;
+  background-color:purple;
+}
+
+.Box16 {
+  width: 200px;
+  height: 200px;
+  background-color:green;
+}
+
+.Box17 {
+  width: 200px;
+  height: 200px;
+  background-color:rgb(42, 160, 165);
+}
+
+.Box18 {
+  box-shadow:
+  0 0 0 1em green,
+  0 1em 0 1em green,
+  -2.5em 1.5em 0 .5em red,
+  2.5em 1.5em 0 .5em red,
+  -3em -3em 0 0 green,
+  3em -3em 0 0 green,
+  -2em -2em 0 0 green,
+  2em -2em 0 0 green,
+  -3em -1em 0 0 green,
+  -2em -1em 0 0 green,
+  2em -1em 0 0 green,
+  3em -1em 0 0 green,
+  -4em 0 0 0 green,
+  -3em 0 0 0 green,
+  3em 0 0 0 green,
+  4em 0 0 0 green,
+  -5em 1em 0 0 green,
+  -4em 1em 0 0 green,
+  4em 1em 0 0 green,
+  5em 1em 0 0 green,
+  -5em 2em 0 0 green,
+  5em 2em 0 0 green,
+  -5em 3em 0 0 green,
+  -3em 3em 0 0 green,
+  3em 3em 0 0 green,
+  5em 3em 0 0 green,
+  -2em 4em 0 0 green,
+  -1em 4em 0 0 green,
+  1em 4em 0 0 green,
+  2em 4em 0 0 green;
+  background: green;
+  width: 1em;
+  // height: 1em;
+  overflow: hidden;
+  margin: 50px 0 70px 65px;
+}
+
+.Box19 {
+  width: 200px;
+  height: 200px;
+  background-color:brown;
+}
+
+.Box20 {
+  width: 200px;
+  height: 200px;
+  background-color:rgb(2, 2, 2);
+}
